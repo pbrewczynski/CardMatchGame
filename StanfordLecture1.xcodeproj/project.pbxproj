@@ -24,6 +24,7 @@
 		19D3DF48183DE4F9000DC3D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D3DF20183DE4F8000DC3D1 /* Foundation.framework */; };
 		19D3DF50183DE4F9000DC3D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19D3DF4E183DE4F9000DC3D1 /* InfoPlist.strings */; };
 		19D3DF53183DE4F9000DC3D1 /* StanfordLecture1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D3DF52183DE4F9000DC3D1 /* StanfordLecture1Tests.m */; };
+		19D3DF5F183DE5BD000DC3D1 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D3DF5E183DE5BD000DC3D1 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,9 @@
 		19D3DF4F183DE4F9000DC3D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19D3DF51183DE4F9000DC3D1 /* StanfordLecture1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StanfordLecture1Tests.h; sourceTree = "<group>"; };
 		19D3DF52183DE4F9000DC3D1 /* StanfordLecture1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StanfordLecture1Tests.m; sourceTree = "<group>"; };
+		19D3DF5C183DE584000DC3D1 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
+		19D3DF5D183DE5BD000DC3D1 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		19D3DF5E183DE5BD000DC3D1 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,9 @@
 		19D3DF24183DE4F8000DC3D1 /* StanfordLecture1 */ = {
 			isa = PBXGroup;
 			children = (
+				19D3DF5C183DE584000DC3D1 /* Card.h */,
+				19D3DF5D183DE5BD000DC3D1 /* Card.h */,
+				19D3DF5E183DE5BD000DC3D1 /* Card.m */,
 				19D3DF2D183DE4F9000DC3D1 /* AppDelegate.h */,
 				19D3DF2E183DE4F9000DC3D1 /* AppDelegate.m */,
 				19D3DF36183DE4F9000DC3D1 /* MainStoryboard_iPhone.storyboard */,
@@ -277,6 +284,7 @@
 				19D3DF2B183DE4F9000DC3D1 /* main.m in Sources */,
 				19D3DF2F183DE4F9000DC3D1 /* AppDelegate.m in Sources */,
 				19D3DF3E183DE4F9000DC3D1 /* ViewController.m in Sources */,
+				19D3DF5F183DE5BD000DC3D1 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
